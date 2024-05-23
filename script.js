@@ -92,7 +92,7 @@ function goToIndividual(title,price, image){
     }
     localStorage.setItem("currentItem",JSON.stringify(myItem))
 
-    window.location.href = '../listingPage/listingPage.html'
+    window.location.href = './listingPage/listingPage.html'
 
 }
 
